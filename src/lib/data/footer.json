@@ -1,0 +1,126 @@
+{
+  "brand": {
+    "name": "CleverCards",
+    "icon": "fa-regular fa-credit-card",
+    "tagline": "CleverCards"
+  },
+  "sections": [
+    {
+      "title": "Product",
+      "links": [
+        {
+          "label": "Employee Gift Cards",
+          "href": "#"
+        },
+        {
+          "label": "Business Expenses Card",
+          "href": "#"
+        },
+        {
+          "label": "The Subscription Card",
+          "href": "#"
+        },
+        {
+          "label": "Employee Benefits",
+          "href": "#"
+        },
+        {
+          "label": "Employee Allowances",
+          "href": "#"
+        },
+        {
+          "label": "Travel Expense Cards",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        {
+          "label": "Business Account Login",
+          "href": "#"
+        },
+        {
+          "label": "FAQs",
+          "href": "#"
+        },
+        {
+          "label": "Help center",
+          "href": "#"
+        },
+        {
+          "label": "Referral Programme",
+          "href": "#"
+        },
+        {
+          "label": "Apple Pay",
+          "href": "#"
+        },
+        {
+          "label": "News",
+          "href": "#"
+        },
+        {
+          "label": "Blog",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "title": "Support",
+      "links": [
+        {
+          "label": "Legal",
+          "href": "#"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "#"
+        },
+        {
+          "label": "Cookies Policy",
+          "href": "#"
+        },
+        {
+          "label": "Contact US",
+          "href": "#"
+        },
+        {
+          "label": "Cookies Settings",
+          "href": "#"
+        }
+      ]
+    }
+  ],
+  "socialMedia": [
+    {
+      "name": "Instagram",
+      "href": "https://www.instagram.com",
+      "icon": "fa-brands fa-instagram",
+      "color": "text-orange-600"
+    },
+    {
+      "name": "YouTube",
+      "href": "https://www.youtube.com",
+      "icon": "fa-brands fa-youtube",
+      "color": "text-red-600"
+    },
+    {
+      "name": "Facebook",
+      "href": "https://www.facebook.com",
+      "icon": "fa-brands fa-facebook",
+      "color": "text-blue-600"
+    }
+  ],
+  "newsletter": {
+    "title": "Get started with CleverCards",
+    "description": "Join thousands of businesses across Ireland and the UK who trust CleverCards for their prepaid card solutions. Get notified about new features and exclusive offers.",
+    "placeholder": "Your Email Address",
+    "buttonText": "Get Notified"
+  },
+  "copyright": {
+    "text": "©2025 CleverCards All rights reserved. Regulated by the Central Bank of Ireland.",
+    "description": "CleverCards is a leading provider of digital prepaid card solutions for businesses across Ireland and the United Kingdom. Our secure, compliant platform helps companies streamline expense management, enhance employee benefits, and maintain financial control. All transactions are protected by advanced security measures and regulatory oversight."
+  }
+}

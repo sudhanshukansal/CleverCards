@@ -1,0 +1,40 @@
+{
+  "title": "Frequently Asked Questions (FAQs)",
+  "faqs": [
+    {
+      "question": "Are prepaid cards safe in Ireland?",
+      "answer": "Yes, prepaid cards issued by CleverCards are completely safe and regulated in Ireland. Since these cards are not linked to your bank account, there is no risk of fraud or unauthorized access to your primary finances. All transactions are monitored and protected by advanced security measures.",
+      "open": true
+    },
+    {
+      "question": "Can I use CleverCards for tax-free employee gifting in Ireland?",
+      "answer": "Yes, CleverCards can be used for tax-free employee gifting under the Small Benefit Exemption Scheme. You can provide up to €500 per employee per year in benefits without incurring tax liabilities, making it an excellent choice for employee rewards and recognition programs.",
+      "open": false
+    },
+    {
+      "question": "Can prepaid cards be used for employee rewards under the Small Benefit Exemption Scheme?",
+      "answer": "Absolutely! CleverCards prepaid cards are specifically designed to work within Ireland's Small Benefit Exemption Scheme. This allows employers to provide up to €500 per employee annually in tax-free benefits, perfect for bonuses, rewards, and employee recognition programs.",
+      "open": false
+    },
+    {
+      "question": "Are there spending or top-up limits on Prepaid Cards?",
+      "answer": "Yes, CleverCards allows you to set customizable spending limits and top-up restrictions based on your business needs. You can control daily, weekly, or monthly spending limits, restrict merchant categories, and set individual card limits to maintain full control over business expenses.",
+      "open": false
+    },
+    {
+      "question": "Can Irish companies use prepaid cards for freelancers and contractors?",
+      "answer": "Yes, CleverCards prepaid cards are an excellent solution for paying freelancers and contractors. They provide a secure, trackable payment method that helps with expense management and reduces administrative overhead while ensuring compliance with Irish business regulations.",
+      "open": false
+    },
+    {
+      "question": "Do prepaid business cards in Ireland require a business credit check?",
+      "answer": "No, CleverCards prepaid business cards do not require a credit check since they use pre-loaded funds rather than credit. This makes them accessible to businesses of all sizes and credit histories, providing immediate access to business payment solutions.",
+      "open": false
+    },
+    {
+      "question": "Can I buy a prepaid card online in Ireland?",
+      "answer": "Yes, you can easily purchase and set up CleverCards prepaid cards online through our secure platform. Digital cards are available instantly upon account setup, while physical cards can be ordered and delivered within 3-5 business days across Ireland and the UK.",
+      "open": false
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "hero": {
+    "title": "Prepaid Cards",
+    "subtitle": "For Businesses In Ireland",
+    "description": "Take control of business spending with prepaid cards for businesses. From instant employee rewards to controlled expenses, prepaid cards let you go from delivery to spend in seconds."
+  },
+  "sections": {
+    "whatArePrepaidCards": {
+      "title": "What are Prepaid Cards?",
+      "description": "Prepaid cards are payment cards pre-loaded with money. These cards are primarily used by businesses for employee gifting, business travel, or to manage business expenses efficiently."
+    },
+    "debitVsCreditVsPrepaid": {
+      "title": "Debit Vs Credit Vs Prepaid Card",
+      "description": "Debit, credit, and prepaid cards might look the same, but each works differently. Here is how they compare"
+    },
+    "digitalVsPhysical": {
+      "title": "Digital Vs Physical Prepaid Cards",
+      "description": "Digital and physical prepaid cards serve different business needs. Digital cards offer instant delivery and enhanced security, while physical cards provide traditional payment flexibility. Here's how they compare:"
+    },
+    "benefits": {
+      "title": "Benefit of business cards, <br> For Business In Ireland & UK",
+      "description": "The benefit of prepaid cards in Ireland and the UK go far beyond ease of use. <br> Here are some of the props of using a prepaid card for your business."
+    },
+    "howCardsWork": {
+      "title": "How do prepaid Cards Work?",
+      "description": "The benefit of prepaid cards in Ireland and the UK go far beyond ease of use. <br> Here are some of the props of using a prepaid card for your business."
+    },
+    "chooseCleverCards": {
+      "title": "Choose CleverCards For Businesses In Ireland & UK.",
+      "description": "The benefit of prepaid cards in Ireland and the UK go far beyond ease of use. Here are some of the props of using a prepaid card for your business."
+    },
+    "orderPrepaid": {
+      "title": "Order Prepaid Mastercards <br> For Your Employees with CleverCards",
+      "description": "The benefit of prepaid cards in Ireland and the UK go far beyond ease of use. <br> Here are some of the props of using a prepaid card for your business."
+    },
+    "cardOptions": {
+      "title": "CleverCards' Prepaid Card Options"
+    }
+  },
+  "comparisonTables": {
+    "debitVsCreditVsPrepaid": [
+      {
+        "difference": "How does it work?",
+        "debitCard": "Deducts money directly from your bank account",
+        "creditCard": "Let's you borrow from the bank to pay back later",
+        "prepaidCard": "Prepaid cards are loaded in advance to be spent within a limit"
+      },
+      {
+        "difference": "Spending Limit",
+        "debitCard": "Restricted to account balance",
+        "creditCard": "Restricted by approved credit limit",
+        "prepaidCard": "Restricted to the amount loaded on the cards"
+      },
+      {
+        "difference": "Account Link",
+        "debitCard": "Linked to your bank account",
+        "creditCard": "Linked to a separate credit account",
+        "prepaidCard": "Not linked to any bank account"
+      },
+      {
+        "difference": "Credit Checks",
+        "debitCard": "No credit checks required",
+        "creditCard": "Credit checks are usually required",
+        "prepaidCard": "No credit check required"
+      },
+      {
+        "difference": "Risks",
+        "debitCard": "Risk of overdrawing the account exists",
+        "creditCard": "Risk of exceeding spending limit exists",
+        "prepaidCard": "No risks. Spending is capped at the loaded amount"
+      }
+    ],
+    "digitalVsPhysical": [
+      {
+        "difference": "How does it work?",
+        "digital": "Virtual card delivered instantly via email or app",
+        "physical": "Physical card shipped and delivered to your address"
+      },
+      {
+        "difference": "Delivery Time",
+        "digital": "Instant - available within seconds",
+        "physical": "3-5 business days for shipping"
+      },
+      {
+        "difference": "Security Features",
+        "digital": "Enhanced security with virtual numbers and instant freezing",
+        "physical": "Traditional card security with physical possession required"
+      },
+      {
+        "difference": "Usage Flexibility",
+        "digital": "Online purchases, mobile payments, and digital wallets",
+        "physical": "All payment types including ATM withdrawals"
+      },
+      {
+        "difference": "Cost Efficiency",
+        "digital": "Lower costs - no shipping or physical production",
+        "physical": "Higher costs due to production and shipping"
+      }
+    ]
+  },
+  "features": [
+    {
+      "title": "Digital prepaid cards can be issued and sent to employees instantly via email, all within seconds"
+    },
+    {
+      "title": "Prepaid cards are cost-efficient as they reduce admin costs and paperwork"
+    },
+    {
+      "title": "Employers can set limits, restrict categories, and manage their expenses better"
+    },
+    {
+      "title": "Prepaid cards are not linked to any bank account, which reduces fraud and risk"
+    },
+    {
+      "title": "Prepaid cards can be used both for small businesses and large enterprises"
+    },
+    {
+      "title": "Real-time spending controls and detailed transaction reporting for better financial oversight"
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Instant digital card issuance with immediate employee access via email or mobile app"
+    },
+    {
+      "title": "Significant cost savings through reduced administrative overhead and paperwork elimination"
+    },
+    {
+      "title": "Advanced spending controls with category restrictions and real-time budget management"
+    },
+    {
+      "title": "Enhanced security with no direct bank account linkage, reducing fraud exposure"
+    },
+    {
+      "title": "Scalable solution suitable for businesses of all sizes, from startups to enterprises"
+    },
+    {
+      "title": "Comprehensive reporting and analytics for better financial decision-making"
+    }
+  ],
+  "howCardsWork": [
+    {
+      "title": "Business Expense Management",
+      "description": "Streamline company spending with real-time controls, automated expense tracking, and detailed reporting for better financial oversight."
+    },
+    {
+      "title": "Business Travel Expense Management", 
+      "description": "Provide employees with secure travel funds, eliminate expense reports, and gain instant visibility into travel spending across your organization."
+    },
+    {
+      "title": "Meal Allowance for Employees",
+      "description": "Offer tax-efficient meal benefits with preset spending limits, category restrictions, and automatic compliance with local regulations."
+    },
+    {
+      "title": "Employee Benefit Program",
+      "description": "Reward your team with flexible prepaid cards for gifts, bonuses, and recognition programs while maintaining full administrative control."
+    }
+  ],
+  "orderSteps": [
+    {
+      "title": "Step 1: Sign Up",
+      "description": "Create your CleverCards business account in minutes with our simple online registration process and verify your business details."
+    },
+    {
+      "title": "Step 2: Configure Cards",
+      "description": "Set up your prepaid card parameters including spending limits, merchant categories, and employee access permissions through our dashboard."
+    },
+    {
+      "title": "Step 3: Issue Cards",
+      "description": "Generate digital cards instantly or order physical cards for your employees with personalized settings and immediate activation."
+    },
+    {
+      "title": "Step 4: Manage & Monitor",
+      "description": "Track spending in real-time, generate reports, and maintain full control over your business expenses through our comprehensive management platform."
+    }
+  ],
+  "cardTypes": [
+    {
+      "title": "Employee <br> Benefits Cards",
+      "description": "Gift tax-free* rewards with CleverCards digital cards. Simplify business gifting and give employees full control over their funds, with the flexibility to spend them anywhere, anytime.",
+      "color": "from-purple-600 to-purple-900"
+    },
+    {
+      "title": "Business <br> Expense Cards", 
+      "description": "Attain real-time control and transparency over your business spend. Free employees from end-of-month expense claims.",
+      "color": "from-gray-600 to-gray-900"
+    },
+    {
+      "title": "Subscription <br> Payment Cards",
+      "description": "Earn unlimited cashback on all your subscriptions with no monthly fees instantly. Track, control, and optimise your payments all in one place.",
+      "color": "from-blue-600 to-blue-900"
+    }
+  ]
+}

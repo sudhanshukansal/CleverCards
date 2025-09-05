@@ -1,0 +1,42 @@
+{
+  "brand": {
+    "name": "CleverCards",
+    "icon": "fa-regular fa-credit-card"
+  },
+  "navigation": [
+    {
+      "label": "Businesses we serve",
+      "href": "#",
+      "hasDropdown": true
+    },
+    {
+      "label": "Product",
+      "href": "#",
+      "hasDropdown": true
+    },
+    {
+      "label": "Solution",
+      "href": "#",
+      "hasDropdown": true
+    },
+    {
+      "label": "Company",
+      "href": "#",
+      "hasDropdown": true
+    }
+  ],
+  "actions": [
+    {
+      "label": "Contact Sales",
+      "href": "#contact",
+      "type": "outline",
+      "ariaLabel": "Contact our sales team"
+    },
+    {
+      "label": "Login",
+      "href": "#login",
+      "type": "primary",
+      "ariaLabel": "Login to your account"
+    }
+  ]
+}

@@ -8,7 +8,7 @@
     <div class="relative bg-gray-700 rounded-2xl p-6 overflow-hidden group cursor-pointer h-96">
       <!-- Content -->
        <div class="flex justify-between">
-        <h3 class="ttext-subParaFont md:text-paraFont lg:text-minSubHead font-semibold mb-2">{@html card.title}</h3>
+        <h3 class="text-subParaFont md:text-paraFont lg:text-minSubHead font-semibold mb-2">{@html card.title}</h3>
           <span >  <i class="fa-solid fa-arrow-right bg-buttonColor p-1 border border-buttonColor rounded-full"></i>
 </span>
 

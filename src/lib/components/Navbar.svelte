@@ -1,17 +1,18 @@
+
 <script>
-  const navItems = [
-    { label: "Businesses we serve", href: "#", hasDropdown: true },
-    { label: "Product", href: "#", hasDropdown: true },
-    { label: "Solution", href: "#", hasDropdown: true },
-    { label: "Company", href: "#", hasDropdown: true },
-  ];
+  import { getNavigationData } from '$lib/utils/contentLoader.js';
+  
+  const navData = getNavigationData();
+  const navItems = navData.navigation;
+  const brand = navData.brand;
+  const actions = navData.actions;
 </script>
 
 <nav class="w-full bg-gradient-to-r from-gray-900 to-[#473B57] text-white px-8 py-3 flex items-center justify-between ">
   <!-- Logo -->
   <div class="flex items-center gap-2 lg:ml-24">
-    <i class="fa-regular fa-credit-card text-xl"></i>
-    <span class="text-xl font-bold">CleverCards</span>
+    <i class="{brand.icon} text-xl"></i>
+    <span class="text-xl font-bold">{brand.name}</span>
   </div>
 
   <!-- Menu -->
@@ -32,17 +33,16 @@
 
   <!-- Actions -->
   <div class="flex gap-4">
-    <a
-      href="#"
-      class="px-4 py-2 border border-white rounded-full hover:bg-white hover:text-black transition"
-    >
-      Contact Sales
-    </a>
-    <a
-      href="#"
-      class="px-4 py-2 rounded-full bg-buttonColor"
-    >
-      Login
-    </a>
+    {#each actions as action}
+      <a
+        href={action.href}
+        class="px-4 py-2 rounded-full transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 {action.type === 'outline' 
+          ? 'border border-white hover:bg-white hover:text-black focus:ring-white' 
+          : 'bg-buttonColor hover:bg-purple-700 focus:ring-purple-500'}"
+        
+      >
+        {action.label}
+      </a>
+    {/each}
   </div>
 </nav>
