@@ -115,12 +115,12 @@
   ],
   "newsletter": {
     "title": "Get started with CleverCards",
-    "description": "Join thousands of businesses across Ireland and the UK who trust CleverCards for their prepaid card solutions. Get notified about new features and exclusive offers.",
+    "description": "Sign up to our mailing list below and be the first to know about new updates. Don't worry, we hate spam too.",
     "placeholder": "Your Email Address",
     "buttonText": "Get Notified"
   },
   "copyright": {
-    "text": "©2025 CleverCards All rights reserved. Regulated by the Central Bank of Ireland.",
-    "description": "CleverCards is a leading provider of digital prepaid card solutions for businesses across Ireland and the United Kingdom. Our secure, compliant platform helps companies streamline expense management, enhance employee benefits, and maintain financial control. All transactions are protected by advanced security measures and regulatory oversight."
+    "text": "©2025 CleverCards All rights reserved.",
+    "description": "CleverCards  Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio perspiciatis suscipit animi nesciunt repellat obcaecati magni quos. Quis, reprehenderit. Molestias dolorem cupiditate suscipit error autem sint tenetur illo ipsum animi?"
   }
 }

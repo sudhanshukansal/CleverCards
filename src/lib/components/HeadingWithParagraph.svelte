@@ -3,7 +3,7 @@
   export let description = "";
 </script>
 
-<div class="text-center my-8 px-2 sm:px-4 space-y-6 pb-4 lg:pb-6">
+<div class="text-center  px-2 sm:px-4 space-y-3 md:space-y-4 lg:space-y-6 pb-4 lg:pb-6">
   <h1
     class="text-minSubHead md:text-miniHeadFont lg:text-subHeadFont font-bold mb-2 text-white"
   >

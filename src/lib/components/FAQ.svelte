@@ -13,7 +13,7 @@
   }
 </script>
 
-<div class="w-full flex md:flex-row flex-col mx-auto  text-white pb-10">
+<div class="w-full flex md:flex-row flex-col mx-auto  text-white pb-4 md:pb-10">
   <h2 class=" md:w-1/2 font-bold mb-4 text-minSubHead md:text-miniHeadFont lg:text-subHeadFont pt-6">
     {faqData.title}
   </h2>
@@ -24,7 +24,7 @@
         on:click={() => toggleFAQ(i)}
       >
         <div class="flex justify-between items-center">
-          <span class="text-lg">{faq.question}</span>
+          <span class="text-subParaFont md:text-paraFont font-bold">{faq.question}</span>
           <span
             class={faq.open
               ? "rotate-180 transition-transform"
@@ -40,4 +40,5 @@
       </div>
     {/each}
   </div>
+ 
 </div>

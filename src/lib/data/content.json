@@ -183,12 +183,26 @@
     {
       "title": "Business <br> Expense Cards", 
       "description": "Attain real-time control and transparency over your business spend. Free employees from end-of-month expense claims.",
-      "color": "from-gray-600 to-gray-900"
+      "color": "from-purple-600 to-purple-900"
     },
     {
       "title": "Subscription <br> Payment Cards",
       "description": "Earn unlimited cashback on all your subscriptions with no monthly fees instantly. Track, control, and optimise your payments all in one place.",
-      "color": "from-blue-600 to-blue-900"
+      "color": "from-purple-600 to-purple-900"
+    }
+  ],
+  "addMoney" :[
+    {
+      "title": "Add Money",
+      "description": "Load the prepaid card with the desired amount. This is the stage where you add money from your bank account. This does not require linking your bank account to the card."
+    },
+    {
+      "title": "Configure & Send",
+      "description": "Prepaid cards work differently for different use cases. For expenses like travel and meals, you can configure spending limits and usage rules. With virtual prepaid card options, employees receive their cards instantly via email."
+    },
+    {
+      "title": "Track Spends",
+      "description": "Employers can monitor and track spending on the cards digitally in real-time from a business dashboard. This eliminates the tiring process of claiming reimbursements and increases efficiency."
     }
   ]
 }

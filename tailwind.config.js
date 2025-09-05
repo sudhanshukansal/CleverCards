@@ -60,6 +60,12 @@ export default {
           { lineHeight: "0.8rem", letterSpacing: "0.02em" },
         ],
       },
+      screens: {
+        "xxs" : '350px',
+        'xs': '400px', 
+        '3xl': '1960px'     
+        
+      },
     },
   },
   plugins: [],

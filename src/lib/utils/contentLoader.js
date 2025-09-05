@@ -18,6 +18,9 @@ export function getNavigationData() {
 export function getFooterData() {
   return footerData;
 }
+export function getMoneyDetails(){
+    return contentData.addMoney
+}
 
 export function getSectionContent(sectionKey) {
   return contentData.sections?.[sectionKey] || null;

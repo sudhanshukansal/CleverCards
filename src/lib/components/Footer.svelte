@@ -13,19 +13,19 @@
 <section class="relative w-full border-t border-gray-800 bg-black">
   <div class="relative mx-auto flex w-full flex-col gap-4">
     <nav
-      class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-7 gap-[2rem] sm:gap-[1rem] pt-[4rem] px-2 lg:px-[2rem]"
+      class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-7 3xl:grid-cols-6  gap-[2rem] sm:gap-[1rem] pt-[1rem] md:pt-[2rem] px-2 lg:px-[1rem]"
     >
       <!-- Footer list (always first on desktop, before follow us on mobile/tablet) -->
       {#each sections as section}
         <div>
-          <h3 class="mb-4 font-bold text-white lg:text-paraFont">
+          <h3 class="mb-4 font-bold text-white text-subParaFont md:text-paraFont">
             {section.title}
           </h3>
           <ul>
             {#each section.links as link}
               <a
                 href={link.href}
-                target={link.href.includes("http") ? "_blank" : "_self"}
+               
                 class="mb-2 text-subParaFont md:text-paraFont text-gray-400 underline-offset-4 hover:underline flex gap-2 items-center"
               >
                 {link.label}
@@ -42,9 +42,9 @@
           <h2 class="text-xl font-bold text-white">{brand.name}</h2>
         </div>
         <div class="">
-          <h2 class="text-white font-bold">{brand.tagline}</h2>
+          <h2 class="text-white font-bold text-subParaFont md:text-paraFont">{brand.tagline}</h2>
           <div>
-            <p class="text-lightGray">Follow us on:</p>
+            <p class="text-lightGray text-subParaFont md:text-paraFont">Follow us on:</p>
             <div class="flex gap-4">
               {#each socialMedia as social}
                 <a href={social.href} aria-label={social.name}>
@@ -58,13 +58,13 @@
 
       <!-- Email section: spans 2 columns on lg+ -->
       <div
-        class="flex flex-col gap-6 sm:col-span-2 order-last lg:col-span-3 xl:col-span-3"
+        class="flex flex-col gap-3 lg:gap-6 sm:col-span-2 order-last lg:col-span-3 xl:col-span-3 3xl:col-span-2"
       >
-        <h2 class="font-bold text-white">{newsletter.title}</h2>
+        <h2 class="font-bold text-subParaFont md:text-paraFont text-white">{newsletter.title}</h2>
         <p class="text-subParaFont md:text-paraFont text-gray-400">
           {newsletter.description}
         </p>
-        <div class="flex flex-col sm:flex-row gap-4">
+        <div class="flex flex-col sm:flex-row gap-4 max-w-[800px]">
           <input
             type="email"
             placeholder={newsletter.placeholder}
