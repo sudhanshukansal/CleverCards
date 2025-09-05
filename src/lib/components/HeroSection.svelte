@@ -4,9 +4,9 @@
 </script>
 
 <section class="relative  text-white py-5 md:py-20 ">
-  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+  <div class=" mx-auto grid md:grid-cols-2 gap-12 ">
     <!-- Left Content -->
-    <div>
+    <div class="lg:mx-auto">
       <h1 class="text-miniHeadFont md:text-minHeadFont lg:text-headFont font-bold mb-4">Prepaid Cards</h1>
       <h2 class="text-minSubHead md:text-mobSubHead font-semibold text-gray-300 mb-2 md:mb-4">
         For Businesses In Ireland

@@ -49,9 +49,9 @@
   <title>CleverCards</title>
 </svelte:head>
 
-<section class="w-full px-4 sm:px-8 lg:px-2">
+<section class="lg:w-[1024px] xl:w-[1200px] 2xl:w-[1313px] mx-auto px-4 sm:px-8 lg:px-2">
   <HeroSection />
-  <div class="xl:w-[1091px] mx-auto flex flex-col gap-[4rem] md:gap-[8rem]">
+  <div class="lg:w-[960px] xl:w-[1091px] mx-auto flex flex-col gap-[4rem] md:gap-[8rem]">
     <HeadingWithParagraph
       title={whatArePrepaidCards?.title || ""}
       description={whatArePrepaidCards?.description || ""}
@@ -80,8 +80,7 @@
     </div>
   </div>
 
-  <div
-    class="2xl:w-[1313px] mx-auto flex flex-col gap-[4rem] mt-[4rem] md:gap-[8rem] md:mt-[8rem]"
+  <div class=" mx-auto flex flex-col gap-[4rem] mt-[4rem] md:gap-[8rem] md:mt-[8rem]"
   >
     <div>
       <HeadingWithParagraph
