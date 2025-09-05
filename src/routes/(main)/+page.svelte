@@ -33,7 +33,6 @@
   const orderPrepaid = getOrderSteps();
   const cards = getCardTypes();
 
-  console.log(cards,"kkkkk")
 
   // Load section content
   const whatArePrepaidCards = getSectionContent("whatArePrepaidCards");
