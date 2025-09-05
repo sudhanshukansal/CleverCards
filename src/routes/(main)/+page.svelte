@@ -22,6 +22,7 @@
     getMoneyDetails,
   } from "$lib/utils/contentLoader.js";
   // Load content from JSON
+
   const debitVcreditVprepaid = getDebitVsCreditVsPrepaidData();
   const digitalVphysical = getDigitalVsPhysicalData();
   const addMoneyDetails = getMoneyDetails();
@@ -33,7 +34,6 @@
   const orderPrepaid = getOrderSteps();
   const cards = getCardTypes();
 
-
   // Load section content
   const whatArePrepaidCards = getSectionContent("whatArePrepaidCards");
   const debitVsCreditVsPrepaid = getSectionContent("debitVsCreditVsPrepaid");
@@ -44,6 +44,10 @@
   const orderPrepaidSection = getSectionContent("orderPrepaid");
   const cardOptionsSection = getSectionContent("cardOptions");
 </script>
+
+<svelte:head>
+  <title>CleverCards</title>
+</svelte:head>
 
 <section class="w-full px-4 sm:px-8 lg:px-2">
   <HeroSection />
@@ -76,7 +80,9 @@
     </div>
   </div>
 
-  <div class="2xl:w-[1313px] mx-auto flex flex-col gap-[4rem] mt-[4rem] md:gap-[8rem] md:mt-[8rem]">
+  <div
+    class="2xl:w-[1313px] mx-auto flex flex-col gap-[4rem] mt-[4rem] md:gap-[8rem] md:mt-[8rem]"
+  >
     <div>
       <HeadingWithParagraph
         title={benefitsSection?.title || ""}

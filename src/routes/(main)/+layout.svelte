@@ -5,7 +5,7 @@
 </script>
 
 <section class="relative w-full bg-[#15111B]">
-  <!-- <Navbar /> -->
+  <Navbar />
 
   <div class="relative w-full mx-auto overflow-hidden">
     <slot />
