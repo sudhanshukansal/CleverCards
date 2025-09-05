@@ -26,7 +26,7 @@
       <!-- Credit Card -->
       <div
         class={`absolute left-1/2 -translate-x-1/2 w-4/5 h-48
-                  bg-gradient-to-r ${card.color} rounded-xl flex items-start justify-between px-4
+                  bg-gradient-to-r from-purple-600 to-purple-900 rounded-xl flex items-start justify-between px-4
                   transition-all duration-500 ease-out
                   bottom-[-8rem] group-hover:bottom-4`}
       >

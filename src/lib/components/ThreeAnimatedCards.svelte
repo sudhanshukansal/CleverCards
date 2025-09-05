@@ -1,10 +1,9 @@
 <script>
-  let currentTime = new Date().toLocaleString("en-US", {
-    timeZone: "Asia/Kolkata",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: true,
-  });
+  
+ let currentTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+ setInterval(() => {
+    currentTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+  }, 1000);
 </script>
 
 <div class="relative flex justify-center items-center min-h-[300px]">
