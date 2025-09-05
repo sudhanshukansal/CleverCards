@@ -7,6 +7,7 @@
   import ThreeSideBorderColumn from "$lib/components/ThreeSideBorderColumn.svelte";
   import Slidingcard from "$lib/components/Slidingcard.svelte";
   import HeroSection from "$lib/components/HeroSection.svelte";
+  import ThreeCards from "$lib/components/ThreeCards.svelte";
   let debitVcreditVprepaid = [
     {
       difference: "How does it work?",
@@ -175,6 +176,11 @@
     }
   ];
  
+  let threeCards = [
+    { color: 'blue', number: '3972' },
+   
+    
+  ];
 </script>
 
 <section class="w-full px-4 sm:px-8 lg:px-2">
@@ -245,9 +251,16 @@
 
        <Slidingcard {cards}/>
     </div>
+
+  
+
+
+
+
   
     
 
     <FAQ />
   </div>
 </section>
+
