@@ -7,8 +7,8 @@
     <thead class="bg-gray-700 text-white font-bold text-subParaFont md:text-paraFont">
       <tr>
         <th class="p-2 w-1/3">Differences</th>
-        <th class="p-2 w-1/3">Debit Card</th>
-        <th class="p-2">Credit Card</th>
+        <th class="p-2 w-1/3">Digital Prepaid Cards</th>
+        <th class="p-2">Physical Prepaid Cards</th>
       </tr>
     </thead>
     <tbody>

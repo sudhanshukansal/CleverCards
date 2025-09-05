@@ -139,6 +139,24 @@
       para: " Prepaid cards can be used both for small businesses and large enterprisesPrepaid cards can be used both for small businesses and large enterprises",
     },
   ];
+  const orderPrepaid = [
+    {
+      title: "Step 1",
+      para: " Prepaid cards can be used both for small businesses and large enterprisesPrepaid cards can be used both for small businesses and large enterprises",
+    },
+    {
+      title: "Step 2",
+      para: " Prepaid cards can be used both for small businesses and large enterprisesPrepaid cards can be used both for small businesses and large enterprises Prepaid cards can be used both for small businesses and large enterprises",
+    },
+    {
+      title: "Step 3",
+      para: " Prepaid cards can be used both for small businesses and large enterprisesPrepaid cards can be used both for small businesses and large enterprises",
+    },
+    {
+      title: "Step 4",
+      para: " Prepaid cards can be used both for small businesses and large enterprisesPrepaid cards can be used both for small businesses and large enterprises",
+    },
+  ];
   let cards = [
     {
       title: "Employee <br> Benefits Cards",
@@ -215,7 +233,7 @@
         description="The benfit of prepaid cards in Ireland and the UK go far beyond ease of use. <br> Here are some of the props of using a prepaid card for your business."
       />
 
-      <ThreeSideBorderColumn features={howCardsWork} />
+      <ThreeSideBorderColumn features={orderPrepaid} />
      
 
     </div>
