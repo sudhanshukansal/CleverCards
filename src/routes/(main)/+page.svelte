@@ -7,7 +7,8 @@
   import ThreeSideBorderColumn from "$lib/components/ThreeSideBorderColumn.svelte";
   import Slidingcard from "$lib/components/Slidingcard.svelte";
   import HeroSection from "$lib/components/HeroSection.svelte";
-  import ThreeCards from "$lib/components/ThreeCards.svelte";
+  import ThreeAnimatedCards from "$lib/components/ThreeAnimatedCards.svelte";
+  import CardWithOutCheck from "$lib/components/CardWithOutCheck.svelte";
   let debitVcreditVprepaid = [
     {
       difference: "How does it work?",
@@ -176,11 +177,6 @@
     }
   ];
  
-  let threeCards = [
-    { color: 'blue', number: '3972' },
-   
-    
-  ];
 </script>
 
 <section class="w-full px-4 sm:px-8 lg:px-2">
@@ -196,6 +192,13 @@
         description="Debit, credit, and prepaid cards might look the same, but each works differently. Here is how they compare"
       />
       <ComparisionTableWithFourColumn data={debitVcreditVprepaid} />
+    </div>
+    <div>
+        <HeadingWithParagraph
+        title="How do prepaid Cards Work?"
+        description="The benfit of prepaid cards in Ireland and the UK go far beyond ease of use. <br> Here are some of the props of using a prepaid card for your business."
+      />
+      <CardWithOutCheck />
     </div>
 
     <div class="">

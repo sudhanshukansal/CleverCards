@@ -1,5 +1,5 @@
 <script>
-  import ThreeCards from "./ThreeCards.svelte";
+  import ThreeCards from "./ThreeAnimatedCards.svelte";
 
 </script>
 
